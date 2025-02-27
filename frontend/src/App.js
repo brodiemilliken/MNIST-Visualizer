@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { connect, sendMessage } from './services/socketService';
+import { connect, sendConfirmation, sendMessage } from './services/socketService';
 import DebugConsole from './components/DebugConsole';
 import { info, debug, warn, error, sent, received } from './services/loggerService';
 import './styles/App.css';
@@ -20,6 +20,7 @@ function App() {
 
     socket.on('message', (data) => {
       received(`Message from backend: ${data.content}`);
+      sendConfirmation(data.content); 
     });
 
     socket.on('received_message', (data) => {
@@ -34,7 +35,6 @@ function App() {
 
   const handleSendMessage = () => {
     const message = "Hello from the frontend!";
-    sent(`Sending message: ${message}`);
     sendMessage(message);
   };
 

@@ -1,4 +1,5 @@
 import { io } from 'socket.io-client';
+import { info, debug, warn, error, sent, received } from './loggerService';
 
 // Try a different connection approach
 const URL = window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'http://backend:5000';
@@ -21,10 +22,21 @@ export const connect = () => {
 // Send a text message
 export const sendMessage = (message) => {
   if (!socket || !socket.connected) {
-    console.error('Socket not connected, cannot send message');
+    error('Socket not connected, cannot send message');
     return false;
   }
   socket.emit('message', { type: 'text', content: message });
+  sent(`Sending message: ${message}`);
+  return true;
+};
+
+export const sendConfirmation = (message) => {
+  if (!socket || !socket.connected) {
+    error('Socket not connected, cannot send message');
+    return false;
+  }
+  socket.emit('recieved_message', { type: 'text', content: message });
+  debug(`Confirmation sent: ${message}`);
   return true;
 };
 

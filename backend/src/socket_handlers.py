@@ -13,8 +13,15 @@ def register_socket_handlers(socketio):
         received(f"Received message from client: {data}")
         handle_message(data)
 
+    @socketio.on('recieved_message')
+    def handle_client_confirmation(data):
+        handle_confirmation(data)
+
 def handle_message(data):
     """Process a message from the client"""
-    debug(f"Processing message: {data}")
     emit('received_message', data)
     debug(f"Sent confirmation: {data}")
+
+def handle_confirmation(data):
+    """Process a confirmation from the client"""
+    debug(f"Comfirmation recieved: {data['content']}")
