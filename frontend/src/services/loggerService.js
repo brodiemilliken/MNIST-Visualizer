@@ -3,7 +3,9 @@ const LOG_LEVELS = {
   DEBUG: 'DEBUG',
   INFO: 'INFO',
   WARN: 'WARN',
-  ERROR: 'ERROR'
+  ERROR: 'ERROR',
+  SENT: 'SENT',
+  RECEIVED: 'RECEIVED'
 };
 
 // In-memory storage for logs
@@ -27,11 +29,54 @@ const addLogEntry = (level, message) => {
     logs = logs.slice(-MAX_LOGS);
   }
   
-  // Log to console as well
-  console[level.toLowerCase() === 'debug' ? 'log' : level.toLowerCase()](`[${level}] ${message}`);
+  // Log to console with appropriate color
+  let consoleMethod = 'log';
+  let style = '';
+  
+  switch(level) {
+    case LOG_LEVELS.DEBUG:
+      consoleMethod = 'debug';
+      break;
+    case LOG_LEVELS.INFO:
+      consoleMethod = 'info';
+      break;
+    case LOG_LEVELS.WARN:
+      consoleMethod = 'warn';
+      break;
+    case LOG_LEVELS.ERROR:
+      consoleMethod = 'error';
+      break;
+    case LOG_LEVELS.SENT:
+      consoleMethod = 'log';
+      style = 'color: #c17aff'; // Updated to match CSS
+      break;
+    case LOG_LEVELS.RECEIVED:
+      consoleMethod = 'log';
+      style = 'color: #6bff8e'; // Updated to match CSS
+      break;
+  }
+  
+  if (style) {
+    console[consoleMethod](`%c[${level}] ${message}`, style);
+  } else {
+    console[consoleMethod](`[${level}] ${message}`);
+  }
   
   // Notify subscribers
+  notifySubscribers();
+};
+
+// Notify all subscribers
+const notifySubscribers = () => {
   subscribers.forEach(callback => callback([...logs]));
+};
+
+// Add clear logs functionality
+export const clearLogs = () => {
+  logs = [];
+  info("Console logs cleared");
+  // We don't need to call notifySubscribers() here because
+  // the info() call above will trigger it
 };
 
 // Public logging functions
@@ -39,6 +84,8 @@ export const debug = (message) => addLogEntry(LOG_LEVELS.DEBUG, message);
 export const info = (message) => addLogEntry(LOG_LEVELS.INFO, message);
 export const warn = (message) => addLogEntry(LOG_LEVELS.WARN, message);
 export const error = (message) => addLogEntry(LOG_LEVELS.ERROR, message);
+export const sent = (message) => addLogEntry(LOG_LEVELS.SENT, message);
+export const received = (message) => addLogEntry(LOG_LEVELS.RECEIVED, message);
 
 // Get all log entries
 export const getLogEntries = () => [...logs];

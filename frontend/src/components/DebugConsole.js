@@ -1,87 +1,69 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { getLogEntries, subscribe } from '../services/loggerService';
+import { getLogEntries, subscribe, clearLogs } from '../services/loggerService';
 import '../styles/DebugConsole.css';
 
-function DebugConsole() {
+const DebugConsole = () => {
+  const [isVisible, setIsVisible] = useState(false);
   const [logs, setLogs] = useState([]);
-  const [visible, setVisible] = useState(false);
-  const logEndRef = useRef(null);
+  const logContainerRef = useRef(null);
 
   useEffect(() => {
-    // Get existing logs
+    // Load initial logs
     setLogs(getLogEntries());
     
     // Subscribe to new logs
-    const unsubscribe = subscribe((newLogs) => {
+    const unsubscribe = subscribe(newLogs => {
       setLogs(newLogs);
     });
     
-    return () => {
-      unsubscribe();
-    };
+    // Cleanup subscription on unmount
+    return () => unsubscribe();
   }, []);
 
   useEffect(() => {
-    if (visible) {
-      // Auto-scroll to bottom when new logs arrive
-      logEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    // Auto-scroll to bottom when new logs come in
+    if (logContainerRef.current && isVisible) {
+      logContainerRef.current.scrollTop = logContainerRef.current.scrollHeight;
     }
-  }, [logs, visible]);
+  }, [logs, isVisible]);
 
   const toggleVisibility = () => {
-    setVisible(!visible);
+    setIsVisible(!isVisible);
   };
 
-  // Format timestamp to show only HH:MM:SS
-  const formatTimestamp = (timestamp) => {
-    if (!timestamp) return '';
-    
-    // Extract only the time portion (HH:MM:SS) from ISO timestamp
-    const timePart = timestamp.split('T')[1];
-    if (!timePart) return timestamp;
-    
-    return timePart.split('.')[0];
+  // Updated to use the clearLogs function from loggerService
+  const handleClearLogs = () => {
+    clearLogs();
   };
 
   return (
     <div className="debug-console-container">
-      <button 
-        className="debug-console-toggle" 
-        onClick={toggleVisibility}
-      >
-        {visible ? 'Hide Debug' : 'Show Debug'}
-      </button>
-      
-      {visible && (
+      {isVisible && (
         <div className="debug-console">
           <div className="debug-console-header">
             <h3>Debug Console</h3>
-            <div className="console-controls">
-              <small>{logs.length} messages</small>
-            </div>
+            <button onClick={handleClearLogs}>Clear</button>
           </div>
-          
-          <div className="debug-console-logs">
+          <div className="debug-console-logs" ref={logContainerRef}>
             {logs.length === 0 ? (
-              <p className="no-logs">No logs available</p>
+              <div className="no-logs">No logs to display</div>
             ) : (
               logs.map((log, index) => (
-                <div 
-                  key={index} 
-                  className={`log-entry log-level-${log.level.toLowerCase()}`}
-                >
-                  <span className="log-timestamp">[{formatTimestamp(log.timestamp)}]</span>
-                  <span className="log-level">[{log.level}]</span>
+                <div key={index} className={`log-entry log-level-${log.level.toLowerCase()}`}>
+                  <span className="log-timestamp">[{new Date(log.timestamp).toLocaleTimeString()}]</span>
+                  <span className="log-level">{log.level}</span>
                   <span className="log-message">{log.message}</span>
                 </div>
               ))
             )}
-            <div ref={logEndRef} />
           </div>
         </div>
       )}
+      <button className="debug-console-toggle" onClick={toggleVisibility}>
+        {isVisible ? 'Hide Console' : 'Show Console'}
+      </button>
     </div>
   );
-}
+};
 
 export default DebugConsole;

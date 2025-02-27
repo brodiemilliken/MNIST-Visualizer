@@ -1,12 +1,20 @@
-from flask_socketio import SocketIO, emit
-from utils.logger import get_logger
+from flask_socketio import emit, SocketIO
+from src.utils.logger import get_logger, sent, received
 
-logger = get_logger("socket_handlers.js") 
+logger = get_logger("socket_handlers")
 debug = logger.debug
+info = logger.info
 
-socketio = SocketIO()
+def register_socket_handlers(socketio):
+    """Register all socket event handlers"""
+    
+    @socketio.on('message')
+    def handle_client_message(data):
+        received(f"Received message from client: {data}")
+        handle_message(data)
 
-@socketio.on('send_text')
 def handle_message(data):
-    debug(f"Received message: {data}")
-    emit('receive_text', {'message': 'Text received successfully!'})
+    """Process a message from the client"""
+    debug(f"Processing message: {data}")
+    emit('received_message', data)
+    debug(f"Sent confirmation: {data}")

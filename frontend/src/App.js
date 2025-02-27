@@ -1,26 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import { connect, sendMessage } from './services/socketService';
-import ImageDisplay from './components/ImageDisplay';
-import TextConsole from './components/TextConsole';
 import DebugConsole from './components/DebugConsole';
-import { info, debug } from './services/loggerService';
+import { info, debug, warn, error, sent, received } from './services/loggerService';
+import './styles/App.css';
 
 function App() {
-  const [messages, setMessages] = useState([]);
-  const [image, setImage] = useState(null);
-
   useEffect(() => {
-    info('App initialized');
+    debug('App initialized');
     const socket = connect();
     debug('Socket connection established');
 
+    socket.on('connect', () => {
+      debug('Socket connected successfully to backend');
+    });
+    
+    socket.on('connect_error', (err) => {
+      error(`Connection error: ${err.message}`);
+    });
+
     socket.on('message', (data) => {
-      debug(`Received socket message: ${JSON.stringify(data)}`);
-      if (data.type === 'text') {
-        setMessages((prevMessages) => [...prevMessages, data.content]);
-      } else if (data.type === 'image') {
-        setImage(data.content);
-      }
+      received(`Message from backend: ${data.content}`);
+    });
+
+    socket.on('received_message', (data) => {
+      debug(`Confirmation: ${(data.content)}`);
     });
 
     return () => {
@@ -31,18 +34,15 @@ function App() {
 
   const handleSendMessage = () => {
     const message = "Hello from the frontend!";
-    info(`Sending message: ${message}`);
+    sent(`Sending message: ${message}`);
     sendMessage(message);
   };
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1>MNIST Visualizer</h1>
-        <p>Welcome to the MNIST Visualizer application!</p>
+        <h1>MNIST-Visualizer</h1>
         <button onClick={handleSendMessage}>Send Message to Backend</button>
-        <TextConsole messages={messages} />
-        <ImageDisplay image={image} />
       </header>
       <DebugConsole />
     </div>

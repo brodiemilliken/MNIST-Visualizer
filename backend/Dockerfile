@@ -11,5 +11,5 @@ COPY . .
 # Make sure port 5000 is exposed for both HTTP and WebSockets
 EXPOSE 5000
 
-# Use a more reliable way to run the Flask app with SocketIO
-CMD ["python", "src/app.py"]
+# Change this line to run as a module instead of a script
+CMD ["python", "-m", "src.app"]

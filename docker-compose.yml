@@ -12,7 +12,9 @@ services:
       - backend
     environment:
       - NODE_ENV=development
-      - REACT_APP_API_URL=http://localhost:5000
+      - REACT_APP_API_URL=http://backend:5000  # Changed from localhost to service name
+    networks:
+      - app-network
 
   backend:
     build: ./backend
@@ -22,3 +24,9 @@ services:
       - ./backend:/app
     environment:
       - FLASK_ENV=development
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

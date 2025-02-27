@@ -1,0 +1,1034 @@
+{app.js} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.js} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 749-247-341
+{app.js} - [handle_connect] Client connected to WebSocket
+{app.js} - [handle_connect] Client connected to WebSocket
+{socket_handlers.js} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.js} - [receive_text] Message processed successfully
+{socket_handlers.js} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.js} - [receive_text] Message processed successfully
+{app.js} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.js} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 112-581-631
+{app.js} - [handle_connect] Client connected to WebSocket
+{werkzeug} -  * Detected change in '/app/src/app.py', reloading
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 112-581-631
+{app.py} - [handle_connect] Client connected to WebSocket
+{werkzeug} -  * Detected change in '/app/src/socket_handlers.py', reloading
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 112-581-631
+{app.py} - [handle_connect] Client connected to WebSocket
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{werkzeug} -  * Detected change in '/app/src/socket_handlers.py', reloading
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 112-581-631
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 386-022-994
+{app.py} - [handle_connect] Client connected to WebSocket
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{werkzeug} -  * Detected change in '/app/src/socket_handlers.py', reloading
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 386-022-994
+{app.py} - [handle_connect] Client connected to WebSocket
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{werkzeug} -  * Detected change in '/app/src/socket_handlers.py', reloading
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 386-022-994
+{app.py} - [handle_connect] Client connected to WebSocket
+{werkzeug} -  * Detected change in '/app/src/socket_handlers.py', reloading
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 386-022-994
+{app.py} - [handle_connect] Client connected to WebSocket
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{werkzeug} -  * Detected change in '/app/src/socket_handlers.py', reloading
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 386-022-994
+{app.py} - [handle_connect] Client connected to WebSocket
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 139-653-731
+{app.py} - [handle_connect] Client connected to WebSocket
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{app.py} - [handle_connect] Client connected to WebSocket
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 619-549-989
+{app.py} - [handle_connect] Client connected to WebSocket
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{werkzeug} -  * Detected change in '/app/src/app.py', reloading
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 619-549-989
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 105-727-334
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #4'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #5'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #6'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #7'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #8'}
+{app.py} - [handle_disconnect] Client disconnected from WebSocket
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #9'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #10'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #11'}
+{app.py} - [handle_disconnect] Client disconnected from WebSocket
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #12'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #13'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #14'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #15'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #16'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #17'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #18'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #19'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #20'}
+{app.py} - [handle_disconnect] Client disconnected from WebSocket
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #21'}
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 142-270-960
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 557-288-850
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{app.py} - [<module>] Server shutdown, stopping background thread
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 608-524-554
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 466-250-936
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{socket_handlers.py} - [handle_message] Received message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [receive_text] Message processed successfully
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 430-127-286
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{app.py} - [handle_disconnect] Client disconnected from WebSocket
+{app.py} - [handle_connect] Client connected to WebSocket
+{engineio.server} - Server initialized for eventlet.
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for eventlet.
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 357-141-859
+{werkzeug} -  * Detected change in '/app/src/socket_handlers.py', reloading
+{app.py} - [<module>] Server shutdown, stopping background thread
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for eventlet.
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for eventlet.
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 263-031-002
+{engineio.server} - Server initialized for eventlet.
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for eventlet.
+{app.py} - [<module>] Starting MNIST Visualizer API server
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 121-824-206
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet OPEN data {'sid': 'dNNECm5L4Fe74ec7AAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Received packet MESSAGE data 0
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 0{"sid":"sZk0w-woiB8VhZCiAAAB"}
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Received request to upgrade to websocket
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Upgrade to websocket successful
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #3"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #4'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #4"}]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet PING data None
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #5'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #5"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #6'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #6"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #7'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #7"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #8'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #8"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #9'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - dNNECm5L4Fe74ec7AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #9"}]
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 193-041-278
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet OPEN data {'sid': 'joQ7CuqAzGdugPYiAAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:25:39] "GET /socket.io/?EIO=4&transport=polling&t=s7vpvuev HTTP/1.1" 200 -
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Received packet MESSAGE data 0
+{app.py} - [handle_connect] Client connected to WebSocket
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Received request to upgrade to websocket
+{app.py} - [handle_connect] Background thread started
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:25:39] "GET /socket.io/?EIO=4&transport=polling&t=s7vq5o4f&sid=joQ7CuqAzGdugPYiAAAA HTTP/1.1" 200 -
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 0{"sid":"D-7O-D8mBbbfoOv4AAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:25:39] "POST /socket.io/?EIO=4&transport=polling&t=s7vq4hb9&sid=joQ7CuqAzGdugPYiAAAA HTTP/1.1" 200 -
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Upgrade to websocket successful
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #3"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #4'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #4"}]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet PING data None
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #5'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #5"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #6'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #6"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #7'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #7"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #8'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #8"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #9'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #9"}]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet PING data None
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #10'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - joQ7CuqAzGdugPYiAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #10"}]
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 735-003-652
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet OPEN data {'sid': '26SMpvTjfrTBbet8AAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:26:43] "GET /socket.io/?EIO=4&transport=polling&t=s991m5a7 HTTP/1.1" 200 -
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Received packet MESSAGE data 0
+{app.py} - [handle_connect] Client connected to WebSocket
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Received request to upgrade to websocket
+{app.py} - [handle_connect] Background thread started
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet MESSAGE data 0{"sid":"yUMJTwzsqrfSQ6E6AAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:26:43] "GET /socket.io/?EIO=4&transport=polling&t=s991umuh&sid=26SMpvTjfrTBbet8AAAA HTTP/1.1" 200 -
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:26:43] "POST /socket.io/?EIO=4&transport=polling&t=s991tsdz&sid=26SMpvTjfrTBbet8AAAA HTTP/1.1" 200 -
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Upgrade to websocket successful
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #3"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #4'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #4"}]
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet PING data None
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #5'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #5"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #6'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #6"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #7'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #7"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #8'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 26SMpvTjfrTBbet8AAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #8"}]
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 127-975-564
+{engineio.server} - 9PHev4HA8qUuPYFuAAAA: Sending packet OPEN data {'sid': '9PHev4HA8qUuPYFuAAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:27:35] "GET /socket.io/?EIO=4&transport=polling&t=sadoqea4 HTTP/1.1" 200 -
+{engineio.server} - 9PHev4HA8qUuPYFuAAAA: Received packet MESSAGE data 0
+{engineio.server} - 9PHev4HA8qUuPYFuAAAA: Received request to upgrade to websocket
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:27:35] "GET /socket.io/?EIO=4&transport=polling&t=sadoxl2n&sid=9PHev4HA8qUuPYFuAAAA HTTP/1.1" 200 -
+{engineio.server} - 9PHev4HA8qUuPYFuAAAA: Sending packet MESSAGE data 0{"sid":"RvOQFdaoKQxxiJ-lAAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:27:35] "POST /socket.io/?EIO=4&transport=polling&t=sadoxret&sid=9PHev4HA8qUuPYFuAAAA HTTP/1.1" 200 -
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:27:35] "GET /socket.io/?EIO=4&transport=polling&t=sadp9tsz&sid=9PHev4HA8qUuPYFuAAAA HTTP/1.1" 200 -
+{engineio.server} - 9PHev4HA8qUuPYFuAAAA: Upgrade to websocket successful
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 9PHev4HA8qUuPYFuAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 346-930-469
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet OPEN data {'sid': 'CY-EJ4susiGXa_ZzAAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:28:12] "GET /socket.io/?EIO=4&transport=polling&t=sb5lnqmo HTTP/1.1" 200 -
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Received packet MESSAGE data 0
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Received request to upgrade to websocket
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:28:12] "GET /socket.io/?EIO=4&transport=polling&t=sb5ltz1m&sid=CY-EJ4susiGXa_ZzAAAA HTTP/1.1" 200 -
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 0{"sid":"2ue-lW0kXizAx6jSAAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:28:12] "POST /socket.io/?EIO=4&transport=polling&t=sb5lsjgw&sid=CY-EJ4susiGXa_ZzAAAA HTTP/1.1" 200 -
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Upgrade to websocket successful
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #3"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #4'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #4"}]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet PING data None
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #5'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #5"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #6'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #6"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #7'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #7"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #8'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #8"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #9'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CY-EJ4susiGXa_ZzAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #9"}]
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 507-305-336
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Sending packet OPEN data {'sid': 'GNLosIlBaQ07eE_TAAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:29:11] "GET /socket.io/?EIO=4&transport=polling&t=scfiu7zh HTTP/1.1" 200 -
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Received packet MESSAGE data 0
+{app.py} - [handle_connect] Client connected to WebSocket
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Received request to upgrade to websocket
+{app.py} - [handle_connect] Background thread started
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:29:11] "GET /socket.io/?EIO=4&transport=polling&t=scfjf32d&sid=GNLosIlBaQ07eE_TAAAA HTTP/1.1" 200 -
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Sending packet MESSAGE data 0{"sid":"UaK_7VBWPV4kn0knAAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:29:11] "POST /socket.io/?EIO=4&transport=polling&t=scfje43o&sid=GNLosIlBaQ07eE_TAAAA HTTP/1.1" 200 -
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:29:11] "GET /socket.io/?EIO=4&transport=polling&t=scfjqip7&sid=GNLosIlBaQ07eE_TAAAA HTTP/1.1" 200 -
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Upgrade to websocket successful
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Received packet MESSAGE data 2["message",{"type":"text","content":"Hello from the frontend!"}]
+{socketio.server} - received event "message" from UaK_7VBWPV4kn0knAAAB [/]
+{app.py} - [handle_client_message] Received message from client: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socket_handlers.py} - [handle_message] Handling message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Received packet MESSAGE data 2["message",{"type":"text","content":"Hello from the frontend!"}]
+{socketio.server} - received event "message" from UaK_7VBWPV4kn0knAAAB [/]
+{app.py} - [handle_client_message] Received message from client: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socket_handlers.py} - [handle_message] Handling message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - GNLosIlBaQ07eE_TAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #3"}]
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 215-387-433
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Sending packet OPEN data {'sid': 'rsGNs88XRwWzL1mbAAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:30:42] "GET /socket.io/?EIO=4&transport=polling&t=sedrx984 HTTP/1.1" 200 -
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Received packet MESSAGE data 0
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Received request to upgrade to websocket
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Sending packet MESSAGE data 0{"sid":"YX5x_5RMKsLu4OB2AAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:30:42] "POST /socket.io/?EIO=4&transport=polling&t=sedsi588&sid=rsGNs88XRwWzL1mbAAAA HTTP/1.1" 200 -
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:30:42] "GET /socket.io/?EIO=4&transport=polling&t=sedsj2hq&sid=rsGNs88XRwWzL1mbAAAA HTTP/1.1" 200 -
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:30:42] "GET /socket.io/?EIO=4&transport=polling&t=sedvzata&sid=rsGNs88XRwWzL1mbAAAA HTTP/1.1" 200 -
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Upgrade to websocket successful
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Received packet MESSAGE data 2["message",{"type":"text","content":"Hello from the frontend!"}]
+{socketio.server} - received event "message" from YX5x_5RMKsLu4OB2AAAB [/]
+{app.py} - [handle_client_message] Received message from client: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socket_handlers.py} - [handle_message] Handling message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Received packet MESSAGE data 2["message",{"type":"text","content":"Hello from the frontend!"}]
+{socketio.server} - received event "message" from YX5x_5RMKsLu4OB2AAAB [/]
+{app.py} - [handle_client_message] Received message from client: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socket_handlers.py} - [handle_message] Handling message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - rsGNs88XRwWzL1mbAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #3"}]
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 102-189-227
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet OPEN data {'sid': 'h4lua4rD2JSpkiapAAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:33:19] "GET /socket.io/?EIO=4&transport=polling&t=shr5xe63 HTTP/1.1" 200 -
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Received packet MESSAGE data 0
+{app.py} - [handle_connect] Client connected to WebSocket
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Received request to upgrade to websocket
+{app.py} - [handle_connect] Background thread started
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 0{"sid":"9xGFr2CyObfue1cAAAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:33:19] "GET /socket.io/?EIO=4&transport=polling&t=shr6tfpr&sid=h4lua4rD2JSpkiapAAAA HTTP/1.1" 200 -
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:33:19] "POST /socket.io/?EIO=4&transport=polling&t=shr6t0ol&sid=h4lua4rD2JSpkiapAAAA HTTP/1.1" 200 -
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Upgrade to websocket successful
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Received packet MESSAGE data 2["message",{"type":"text","content":"Hello from the frontend!"}]
+{socketio.server} - received event "message" from 9xGFr2CyObfue1cAAAAB [/]
+{app.py} - [handle_client_message] Received message from client: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socket_handlers.py} - [handle_message] Handling message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socketio.server} - emitting event "received_message" to 9xGFr2CyObfue1cAAAAB [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["received_message",{"status":"Message received by backend","data":{"type":"text","content":"Hello from the frontend!"}}]
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Echo: Hello from the frontend!"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #3"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #4'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #4"}]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet PING data None
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #5'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #5"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #6'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #6"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #7'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #7"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #8'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #8"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #9'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - h4lua4rD2JSpkiapAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #9"}]
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 121-206-630
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Sending packet OPEN data {'sid': 'CgW4cFbtTaZ7VXCbAAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:35:46] "GET /socket.io/?EIO=4&transport=polling&t=skw63i4o HTTP/1.1" 200 -
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Received packet MESSAGE data 0
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Received request to upgrade to websocket
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:35:46] "GET /socket.io/?EIO=4&transport=polling&t=skw6vipu&sid=CgW4cFbtTaZ7VXCbAAAA HTTP/1.1" 200 -
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Sending packet MESSAGE data 0{"sid":"4YsM8eMIlLOsIBs8AAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:35:46] "POST /socket.io/?EIO=4&transport=polling&t=skw6vcxv&sid=CgW4cFbtTaZ7VXCbAAAA HTTP/1.1" 200 -
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:35:46] "GET /socket.io/?EIO=4&transport=polling&t=skw77uyh&sid=CgW4cFbtTaZ7VXCbAAAA HTTP/1.1" 200 -
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Upgrade to websocket successful
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Received packet MESSAGE data 2["message",{"type":"text","content":"Hello from the frontend!"}]
+{socketio.server} - received event "message" from 4YsM8eMIlLOsIBs8AAAB [/]
+{app.py} - [handle_client_message] Received message from client: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socket_handlers.py} - [handle_message] Handling message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socketio.server} - emitting event "received_message" to 4YsM8eMIlLOsIBs8AAAB [/]
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Sending packet MESSAGE data 2["received_message",{"status":"Message received by backend","data":{"type":"text","content":"Hello from the frontend!"}}]
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Echo: Hello from the frontend!"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - CgW4cFbtTaZ7VXCbAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 406-399-457
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet OPEN data {'sid': '8bKEXvsxkLxiA26bAAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:38:23] "GET /socket.io/?EIO=4&transport=polling&t=so9nr0i2 HTTP/1.1" 200 -
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Received request to upgrade to websocket
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Received packet MESSAGE data 0
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 0{"sid":"tqyEBwu1uvvNBUjzAAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:38:23] "GET /socket.io/?EIO=4&transport=polling&t=so9o9aut&sid=8bKEXvsxkLxiA26bAAAA HTTP/1.1" 200 -
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:38:23] "POST /socket.io/?EIO=4&transport=polling&t=so9o910l&sid=8bKEXvsxkLxiA26bAAAA HTTP/1.1" 200 -
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Upgrade to websocket successful
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Received packet MESSAGE data 2["message",{"type":"text","content":"Hello from the frontend!"}]
+{socketio.server} - received event "message" from tqyEBwu1uvvNBUjzAAAB [/]
+{app.py} - [handle_client_message] Received message from client: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socket_handlers.py} - [handle_message] Handling message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socketio.server} - emitting event "received_message" to tqyEBwu1uvvNBUjzAAAB [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["received_message",{"status":"Message received by backend","data":{"type":"text","content":"Hello from the frontend!"}}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #3"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #4'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #4"}]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet PING data None
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #5'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #5"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #6'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #6"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #7'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #7"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #8'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #8"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #9'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - 8bKEXvsxkLxiA26bAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #9"}]
+{werkzeug} -  * Detected change in '/app/src/socket_handlers.py', reloading
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+{werkzeug} - [33mPress CTRL+C to quit[0m
+{werkzeug} -  * Restarting with stat
+{engineio.server} - Server initialized for threading.
+{app.py} - [<module>] Starting Flask-SocketIO server
+{werkzeug} - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+{werkzeug} -  * Debugger is active!
+{werkzeug} -  * Debugger PIN: 630-423-278
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet OPEN data {'sid': 'x6cvDg5vVIvcIAtRAAAA', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000, 'maxPayload': 1000000}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:39:16] "GET /socket.io/?EIO=4&transport=polling&t=spe0bcbo HTTP/1.1" 200 -
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Received request to upgrade to websocket
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Received packet MESSAGE data 0
+{app.py} - [handle_connect] Client connected to WebSocket
+{app.py} - [handle_connect] Background thread started
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:39:16] "GET /socket.io/?EIO=4&transport=polling&t=spe0hd4s&sid=x6cvDg5vVIvcIAtRAAAA HTTP/1.1" 200 -
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 0{"sid":"6oD4wPsvyqM4PP8sAAAB"}
+{werkzeug} - 172.20.0.1 - - [27/Feb/2025 03:39:16] "POST /socket.io/?EIO=4&transport=polling&t=spe0hxke&sid=x6cvDg5vVIvcIAtRAAAA HTTP/1.1" 200 -
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Upgrade to websocket successful
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Received packet MESSAGE data 2["message",{"type":"text","content":"Hello from the frontend!"}]
+{socketio.server} - received event "message" from 6oD4wPsvyqM4PP8sAAAB [/]
+{app.py} - [handle_client_message] Received message from client: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socket_handlers.py} - [handle_message] Handling message: {'type': 'text', 'content': 'Hello from the frontend!'}
+{socketio.server} - emitting event "received_message" to 6oD4wPsvyqM4PP8sAAAB [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["received_message",{"type":"text","content":"Hello from the frontend!"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #1"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #2"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #3"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #4'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #4"}]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet PING data None
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #5'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #5"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #6'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #6"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #7'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #7"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #8'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #8"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #9'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #9"}]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet PING data None
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #10'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #10"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #11'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #11"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #12'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #12"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #13'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #13"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #14'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #14"}]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet PING data None
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #15'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #15"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #16'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #16"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #17'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #17"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #18'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #18"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #19'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #19"}]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet PING data None
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Received packet PONG data 
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #20'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #20"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #21'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #21"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #22'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #22"}]
+{app.py} - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #23'}
+{socketio.server} - emitting event "message" to all [/]
+{engineio.server} - x6cvDg5vVIvcIAtRAAAA: Sending packet MESSAGE data 2["message",{"type":"text","content":"Server update #23"}]
+2025-02-27 03:51:24,331 - app - [<module>] Starting Flask-SocketIO server
+2025-02-27 03:51:24,332 - werkzeug - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-02-27 03:51:24,352 - werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+2025-02-27 03:51:24,352 - werkzeug - [33mPress CTRL+C to quit[0m
+2025-02-27 03:51:24,353 - werkzeug -  * Restarting with stat
+2025-02-27 03:51:24,574 - app - [<module>] Starting Flask-SocketIO server
+2025-02-27 03:51:24,574 - werkzeug - Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+2025-02-27 03:51:24,578 - werkzeug -  * Debugger is active!
+2025-02-27 03:51:24,579 - werkzeug -  * Debugger PIN: 497-164-598
+2025-02-27 03:52:16,453 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:16] "GET /socket.io/?EIO=4&transport=polling&t=t6434ivc HTTP/1.1" 200 -
+2025-02-27 03:52:16,466 - app - [handle_connect] Client connected to WebSocket
+2025-02-27 03:52:16,467 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:16] "GET /socket.io/?EIO=4&transport=polling&t=t6445jpz&sid=zdqfR3TXyqiMknRJAAAA HTTP/1.1" 200 -
+2025-02-27 03:52:16,469 - app - [handle_connect] Background thread started
+2025-02-27 03:52:16,470 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:16] "POST /socket.io/?EIO=4&transport=polling&t=t64448uc&sid=zdqfR3TXyqiMknRJAAAA HTTP/1.1" 200 -
+2025-02-27 03:52:21,474 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #1'}
+2025-02-27 03:52:24,161 - app - [handle_disconnect] Client disconnected from WebSocket
+2025-02-27 03:52:24,162 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:24] "GET /socket.io/?EIO=4&transport=websocket&sid=zdqfR3TXyqiMknRJAAAA HTTP/1.1" 200 -
+2025-02-27 03:52:24,229 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:24] "GET /socket.io/?EIO=4&transport=polling&t=t6a3d7e7 HTTP/1.1" 200 -
+2025-02-27 03:52:24,274 - app - [handle_connect] Client connected to WebSocket
+2025-02-27 03:52:24,278 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:24] "POST /socket.io/?EIO=4&transport=polling&t=t6a45lt9&sid=ihf39NUt8Fe72Yf3AAAC HTTP/1.1" 200 -
+2025-02-27 03:52:24,279 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:24] "GET /socket.io/?EIO=4&transport=polling&t=t6a464pl&sid=ihf39NUt8Fe72Yf3AAAC HTTP/1.1" 200 -
+2025-02-27 03:52:26,478 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #2'}
+2025-02-27 03:52:31,483 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #3'}
+2025-02-27 03:52:36,491 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #4'}
+2025-02-27 03:52:41,494 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #5'}
+2025-02-27 03:52:42,989 - app - [handle_disconnect] Client disconnected from WebSocket
+2025-02-27 03:52:42,990 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:42] "GET /socket.io/?EIO=4&transport=websocket&sid=ihf39NUt8Fe72Yf3AAAC HTTP/1.1" 200 -
+2025-02-27 03:52:43,085 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:43] "GET /socket.io/?EIO=4&transport=polling&t=t6omjykr HTTP/1.1" 200 -
+2025-02-27 03:52:43,099 - app - [handle_connect] Client connected to WebSocket
+2025-02-27 03:52:43,100 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:43] "GET /socket.io/?EIO=4&transport=polling&t=t6onsy3t&sid=bWWWL0-Z1JyLsSYtAAAE HTTP/1.1" 200 -
+2025-02-27 03:52:43,100 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:43] "POST /socket.io/?EIO=4&transport=polling&t=t6onr224&sid=bWWWL0-Z1JyLsSYtAAAE HTTP/1.1" 200 -
+2025-02-27 03:52:46,500 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #6'}
+2025-02-27 03:52:51,505 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #7'}
+2025-02-27 03:52:56,511 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #8'}
+2025-02-27 03:52:58,464 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:58] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:52:58,519 - app - [handle_disconnect] Client disconnected from WebSocket
+2025-02-27 03:52:58,520 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:52:58] "GET /socket.io/?EIO=4&transport=websocket&sid=bWWWL0-Z1JyLsSYtAAAE HTTP/1.1" 200 -
+2025-02-27 03:53:01,515 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #9'}
+2025-02-27 03:53:06,521 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #10'}
+2025-02-27 03:53:11,525 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #11'}
+2025-02-27 03:53:16,531 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #12'}
+2025-02-27 03:53:21,534 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #13'}
+2025-02-27 03:53:26,540 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #14'}
+2025-02-27 03:53:27,127 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:53:27] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:53:31,541 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #15'}
+2025-02-27 03:53:36,547 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #16'}
+2025-02-27 03:53:39,154 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:53:39] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:53:41,563 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #17'}
+2025-02-27 03:53:46,569 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #18'}
+2025-02-27 03:53:51,574 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #19'}
+2025-02-27 03:53:54,453 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:53:54] "GET /debug HTTP/1.1" 200 -
+2025-02-27 03:53:54,470 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:53:54] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:53:56,582 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #20'}
+2025-02-27 03:54:01,587 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #21'}
+2025-02-27 03:54:06,594 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #22'}
+2025-02-27 03:54:11,598 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #23'}
+2025-02-27 03:54:12,481 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:12] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:13,495 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:13] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:14,493 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:14] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:15,495 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:15] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:16,482 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:16] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:16,602 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #24'}
+2025-02-27 03:54:17,481 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:17] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:18,484 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:18] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:19,485 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:19] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:20,487 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:20] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:21,488 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:21] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:21,608 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #25'}
+2025-02-27 03:54:22,479 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:22] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:23,490 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:23] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:24,493 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:24] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:25,479 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:25] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:26,480 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:26] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:26,614 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #26'}
+2025-02-27 03:54:27,480 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:27] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:28,483 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:28] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:29,487 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:29] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:30,487 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:30] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:31,486 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:31] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:31,621 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #27'}
+2025-02-27 03:54:32,490 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:32] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:33,482 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:33] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:34,488 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:34] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:35,479 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:35] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:36,488 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:36] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:36,627 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #28'}
+2025-02-27 03:54:37,493 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:37] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:38,492 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:38] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:39,492 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:39] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:40,478 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:40] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:41,481 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:41] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:41,631 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #29'}
+2025-02-27 03:54:42,485 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:42] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:43,491 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:43] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:44,490 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:44] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:45,490 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:45] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:46,479 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:46] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:46,637 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #30'}
+2025-02-27 03:54:47,488 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:47] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:48,488 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:48] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:49,479 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:49] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:50,487 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:50] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:51,488 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:51] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:51,639 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #31'}
+2025-02-27 03:54:52,478 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:52] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:53,481 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:53] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:54,480 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:54] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:55,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:55] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:56,474 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:56] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:56,645 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #32'}
+2025-02-27 03:54:57,489 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:57] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:58,488 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:58] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:54:59,484 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:54:59] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:00,485 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:00] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:01,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:01] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:01,650 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #33'}
+2025-02-27 03:55:02,478 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:02] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:03,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:03] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:04,477 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:04] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:05,485 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:05] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:06,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:06] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:06,656 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #34'}
+2025-02-27 03:55:07,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:07] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:08,474 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:08] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:09,481 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:09] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:10,479 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:10] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:11,473 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:11] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:11,662 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #35'}
+2025-02-27 03:55:12,475 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:12] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:13,479 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:13] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:14,479 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:14] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:15,473 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:15] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:16,474 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:16] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:16,667 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #36'}
+2025-02-27 03:55:17,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:17] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:18,472 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:18] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:19,472 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:19] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:20,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:20] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:21,477 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:21] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:21,673 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #37'}
+2025-02-27 03:55:22,477 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:22] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:23,475 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:23] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:24,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:24] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:25,475 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:25] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:26,474 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:26] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:26,677 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #38'}
+2025-02-27 03:55:27,475 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:27] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:28,481 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:28] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:29,474 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:29] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:30,481 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:30] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:31,483 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:31] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:31,683 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #39'}
+2025-02-27 03:55:32,486 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:32] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:33,472 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:33] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:34,474 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:34] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:35,202 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:35] "GET /socket.io/?EIO=4&transport=polling&t=tadgdtfb HTTP/1.1" 200 -
+2025-02-27 03:55:35,230 - app - [handle_connect] Client connected to WebSocket
+2025-02-27 03:55:35,231 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:35] "POST /socket.io/?EIO=4&transport=polling&t=tadgyehl&sid=ysHMwMxqMmwq8LplAAAG HTTP/1.1" 200 -
+2025-02-27 03:55:35,234 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:35] "GET /socket.io/?EIO=4&transport=polling&t=tadgz4n5&sid=ysHMwMxqMmwq8LplAAAG HTTP/1.1" 200 -
+2025-02-27 03:55:35,267 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:35] "GET /socket.io/?EIO=4&transport=polling&t=tadi7mno&sid=ysHMwMxqMmwq8LplAAAG HTTP/1.1" 200 -
+2025-02-27 03:55:35,547 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:35] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:36,475 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:36] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:36,689 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #40'}
+2025-02-27 03:55:37,478 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:37] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:38,483 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:38] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:39,470 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:39] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:40,469 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:40] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:41,475 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:41] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:41,693 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #41'}
+2025-02-27 03:55:42,477 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:42] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:43,483 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:43] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:44,468 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:44] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:45,483 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:45] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:46,467 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:46] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:46,699 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #42'}
+2025-02-27 03:55:47,470 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:47] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:48,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:48] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:49,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:49] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:50,478 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:50] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:51,467 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:51] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:51,705 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #43'}
+2025-02-27 03:55:52,482 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:52] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:53,482 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:53] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:54,468 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:54] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:55,480 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:55] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:56,476 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:56] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:56,710 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #44'}
+2025-02-27 03:55:57,481 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:57] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:58,469 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:58] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:55:59,472 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:55:59] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:56:00,474 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:56:00] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:56:01,343 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:56:01] "GET /debug HTTP/1.1" 200 -
+2025-02-27 03:56:01,360 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:56:01] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:56:01,716 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #45'}
+2025-02-27 03:56:06,722 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #46'}
+2025-02-27 03:56:11,726 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #47'}
+2025-02-27 03:56:16,732 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #48'}
+2025-02-27 03:56:21,738 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #49'}
+2025-02-27 03:56:26,743 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #50'}
+2025-02-27 03:56:31,749 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #51'}
+2025-02-27 03:56:36,755 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #52'}
+2025-02-27 03:56:41,764 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #53'}
+2025-02-27 03:56:46,770 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #54'}
+2025-02-27 03:56:51,776 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #55'}
+2025-02-27 03:56:56,781 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #56'}
+2025-02-27 03:57:01,787 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #57'}
+2025-02-27 03:57:06,789 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #58'}
+2025-02-27 03:57:11,793 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #59'}
+2025-02-27 03:57:16,799 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #60'}
+2025-02-27 03:57:21,804 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #61'}
+2025-02-27 03:57:24,400 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:57:24] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:57:26,810 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #62'}
+2025-02-27 03:57:31,817 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #63'}
+2025-02-27 03:57:36,823 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #64'}
+2025-02-27 03:57:41,827 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #65'}
+2025-02-27 03:57:46,841 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #66'}
+2025-02-27 03:57:51,847 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #67'}
+2025-02-27 03:57:56,852 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #68'}
+2025-02-27 03:58:01,858 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #69'}
+2025-02-27 03:58:06,862 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #70'}
+2025-02-27 03:58:11,866 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #71'}
+2025-02-27 03:58:16,872 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #72'}
+2025-02-27 03:58:21,878 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #73'}
+2025-02-27 03:58:26,883 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #74'}
+2025-02-27 03:58:31,889 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #75'}
+2025-02-27 03:58:36,891 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #76'}
+2025-02-27 03:58:37,309 - werkzeug - 172.20.0.1 - - [27/Feb/2025 03:58:37] "GET /api/debug/logs HTTP/1.1" 200 -
+2025-02-27 03:58:41,895 - app - [background_thread] Sending background message: {'type': 'text', 'content': 'Server update #77'}

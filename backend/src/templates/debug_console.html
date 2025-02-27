@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Debug Console</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2d2d2d;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #444;
+        }
+        h1 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .console-container {
+            padding: 10px;
+        }
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .log-container {
+            height: 600px;
+            overflow-y: auto;
+            background-color: #121212;
+            border: 1px solid #444;
+            padding: 10px;
+        }
+        .log-entry {
+            margin-bottom: 4px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 2px;
+        }
+        .timestamp {
+            color: #888;
+            margin-right: 10px;
+        }
+        .level {
+            display: inline-block;
+            padding: 1px 5px;
+            margin: 0 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .level-debug {
+            background-color: #2d2d2d;
+            color: #b0b0b0;
+        }
+        .level-info {
+            background-color: #0d3a58;
+            color: #5db1ff;
+        }
+        .level-warning {
+            background-color: #5c4116;
+            color: #ffbf49;
+        }
+        .level-error {
+            background-color: #5a1818;
+            color: #ff6b6b;
+        }
+        .level-sent {
+            background-color: #351b50;
+            color: #c17aff;
+        }
+        .level-received {
+            background-color: #164522;
+            color: #6bff8e;
+        }
+        .source {
+            color: #888;
+            margin-right: 10px;
+        }
+        .content {
+            word-break: break-all;
+        }
+        button {
+            background-color: #333;
+            color: #e0e0e0;
+            border: 1px solid #555;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Backend Debug Console</h1>
+    </header>
+    <div class="console-container">
+        <div class="controls">
+            <div>
+                <button id="refreshButton">Refresh</button>
+                <button id="autoRefreshToggle">Auto-Refresh: ON</button>
+            </div>
+            <div>
+                <button id="clearButton">Clear Console</button>
+            </div>
+        </div>
+        <div class="log-container" id="logContainer"></div>
+    </div>
+    
+    <script>
+        // Variables
+        let logs = [];
+        let autoRefreshInterval = null;
+        const autoRefreshToggle = document.getElementById('autoRefreshToggle');
+        const logContainer = document.getElementById('logContainer');
+        
+        // Functions
+        function fetchLogs() {
+            fetch('/api/debug/logs')
+                .then(response => response.json())
+                .then(data => {
+                    logs = data;
+                    renderLogs();
+                })
+                .catch(error => {
+                    console.error('Error fetching logs:', error);
+                });
+        }
+        
+        function renderLogs() {
+            logContainer.innerHTML = '';
+            if (logs.length === 0) {
+                logContainer.innerHTML = '<p>No logs available</p>';
+                return;
+            }
+            
+            logs.forEach(log => {
+                const logEntry = document.createElement('div');
+                logEntry.className = 'log-entry';
+                
+                const timestamp = document.createElement('span');
+                timestamp.className = 'timestamp';
+                timestamp.textContent = `[${log.timestamp}]`;
+                logEntry.appendChild(timestamp);
+                
+                const level = document.createElement('span');
+                level.className = `level level-${log.level.toLowerCase()}`;
+                level.textContent = log.level;
+                logEntry.appendChild(level);
+                
+                const source = document.createElement('span');
+                source.className = 'source';
+                source.textContent = `[${log.source}]`;
+                logEntry.appendChild(source);
+                
+                const content = document.createElement('span');
+                content.className = 'content';
+                content.textContent = log.content;
+                logEntry.appendChild(content);
+                
+                logContainer.appendChild(logEntry);
+            });
+            
+            // Auto-scroll to bottom
+            logContainer.scrollTop = logContainer.scrollHeight;
+        }
+        
+        function toggleAutoRefresh() {
+            if (autoRefreshInterval) {
+                clearInterval(autoRefreshInterval);
+                autoRefreshInterval = null;
+                autoRefreshToggle.textContent = 'Auto-Refresh: OFF';
+            } else {
+                autoRefreshInterval = setInterval(fetchLogs, 200);
+                autoRefreshToggle.textContent = 'Auto-Refresh: ON';
+            }
+        }
+        
+        // Event listeners
+        document.getElementById('refreshButton').addEventListener('click', fetchLogs);
+        autoRefreshToggle.addEventListener('click', toggleAutoRefresh);
+        document.getElementById('clearButton').addEventListener('click', function() {
+            fetch('/api/debug/clear', {
+                method: 'POST',
+            })
+            .then(response => response.json())
+            .then(data => {
+                logs = [];
+                renderLogs();
+                setTimeout(fetchLogs, 200); // Fetch the "logs cleared" message
+            })
+            .catch(error => console.error('Error clearing logs:', error));
+        });
+        
+        // Initial fetch
+        fetchLogs();
+    </script>
+</body>
+</html>

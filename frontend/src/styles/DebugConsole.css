@@ -68,25 +68,36 @@
   border-radius: 3px;
 }
 
-/* Enhanced log level styling with background colors */
+/* Enhanced log level styling with new color scheme */
 .log-level-debug .log-level {
-  background-color: #2a3052;
-  color: #a5a8d9;
+  background-color: #2d2d2d;
+  color: #b0b0b0;
 }
 
 .log-level-info .log-level {
-  background-color: #2a4152;
-  color: #a5d9d9;
+  background-color: #0d3a58;
+  color: #5db1ff;
 }
 
 .log-level-warn .log-level {
-  background-color: #524a2a;
-  color: #d9d1a5;
+  background-color: #5c4116;
+  color: #ffbf49;
 }
 
 .log-level-error .log-level {
-  background-color: #522a2a;
-  color: #d9a5a5;
+  background-color: #5a1818;
+  color: #ff6b6b;
+}
+
+/* Add new log levels for SENT and RECEIVED */
+.log-level-sent .log-level {
+  background-color: #351b50;
+  color: #c17aff;
+}
+
+.log-level-received .log-level {
+  background-color: #164522;
+  color: #6bff8e;
 }
 
 .log-message {
