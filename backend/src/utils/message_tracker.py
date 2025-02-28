@@ -1,11 +1,12 @@
 import threading
 import time
-from src.utils.logger import get_logger, warn
+from src.utils.logger import get_logger, warning
 
 logger = get_logger("message_tracker")
 debug = logger.debug
 info = logger.info
-warn = logger.warn
+warning = logger.warning
+error = logger.error
 
 # Dictionary to store messages waiting for confirmation
 # Format: {message_id: {'timestamp': time_sent, 'data': message_data}}
@@ -50,7 +51,7 @@ def check_expired_messages():
     
     # Process expired messages (outside the lock to minimize lock time)
     for message_id, info in expired_messages:
-        warn(f"Message {message_id} not confirmed after {CONFIRMATION_TIMEOUT:.2f}s")
+        warning(f"Message {message_id} not confirmed after {CONFIRMATION_TIMEOUT:.2f}s")
         with message_lock:
             if message_id in pending_messages:  # Check again in case it was confirmed
                 pending_messages.pop(message_id)
@@ -63,7 +64,7 @@ def start_tracker():
                 time.sleep(0.1)  # Check frequently but not too often
                 check_expired_messages()
             except Exception as e:
-                warn(f"Error in tracker thread: {e}")
+                error(f"Error in tracker thread: {e}")
     
     thread = threading.Thread(target=tracker_thread)
     thread.daemon = True

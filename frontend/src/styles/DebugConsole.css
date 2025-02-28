@@ -16,7 +16,7 @@
 }
 
 .debug-console {
-  width: 640px;  /* Increased from 500px */
+  width: 650px;  /* Increased from 500px */
   max-width: 90vw;
   height: 400px;  /* Made it taller as well */
   background: rgba(30, 30, 30, 0.95);  /* Closer to backend background */
@@ -84,7 +84,7 @@
   color: #c17aff;
 }
 
-.log-level-warn .log-level {
+.log-level-warning .log-level {
   background-color: #5c4116;
   color: #ffbf49;
 }
@@ -156,7 +156,7 @@
   color: #c17aff;
 }
 
-.filter-label-warn {
+.filter-label-warning {
   background-color: #5c4116;
   color: #ffbf49;
 }
@@ -186,7 +186,7 @@
 
 .badge-debug { background-color: #b0b0b0; }
 .badge-info { background-color: #c17aff; }
-.badge-warn { background-color: #ffbf49; }
+.badge-warning { background-color: #ffbf49; }
 .badge-error { background-color: #ff6b6b; }
 .badge-sent { background-color: #5db1ff; }
 .badge-received { background-color: #6bff8e; }

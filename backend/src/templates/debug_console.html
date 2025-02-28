@@ -64,7 +64,7 @@
             background-color: #351b50;
             color: #c17aff;
         }
-        .level-warn {
+        .level-warning {
             background-color: #5c4116;
             color: #ffbf49;
         }
@@ -141,7 +141,7 @@
             background-color: #351b50;
             color: #c17aff; 
         }
-        .filter-label-WARN { 
+        .filter-label-WARNING { 
             background-color: #5c4116;
             color: #ffbf49; 
         }
@@ -186,8 +186,8 @@
                 </div>
                 <div class="filter-option">
                     <label>
-                        <input type="checkbox" class="log-filter" data-level="WARN" checked>
-                        <span class="filter-label filter-label-WARN">WARN</span>
+                        <input type="checkbox" class="log-filter" data-level="WARNING" checked>
+                        <span class="filter-label filter-label-WARNING">WARNING</span>
                     </label>
                 </div>
                 <div class="filter-option">
@@ -224,7 +224,7 @@
         let autoRefreshInterval = null;
         const autoRefreshToggle = document.getElementById('autoRefreshToggle');
         const logContainer = document.getElementById('logContainer');
-        let activeFilters = new Set(['DEBUG', 'INFO', 'WARN', 'ERROR', 'SENT', 'RECEIVED']);
+        let activeFilters = new Set(['DEBUG', 'INFO', 'WARNING', 'ERROR', 'SENT', 'RECEIVED']);
         
         // Load saved filters from localStorage
         function loadSavedFilters() {

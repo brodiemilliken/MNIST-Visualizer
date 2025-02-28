@@ -2,7 +2,7 @@
 const LOG_LEVELS = {
   DEBUG: 'DEBUG',
   INFO: 'INFO',
-  WARN: 'WARN',
+  WARNING: 'WARNING',
   ERROR: 'ERROR',
   SENT: 'SENT',
   RECEIVED: 'RECEIVED'
@@ -40,8 +40,8 @@ const addLogEntry = (level, message) => {
     case LOG_LEVELS.INFO:
       consoleMethod = 'info';
       break;
-    case LOG_LEVELS.WARN:
-      consoleMethod = 'warn';
+    case LOG_LEVELS.WARNING:
+      consoleMethod = 'warn'; // This is wrong - should be 'warn'
       break;
     case LOG_LEVELS.ERROR:
       consoleMethod = 'error';
@@ -82,7 +82,7 @@ export const clearLogs = () => {
 // Public logging functions
 export const debug = (message) => addLogEntry(LOG_LEVELS.DEBUG, message);
 export const info = (message) => addLogEntry(LOG_LEVELS.INFO, message);
-export const warn = (message) => addLogEntry(LOG_LEVELS.WARN, message);
+export const warning = (message) => addLogEntry(LOG_LEVELS.WARNING, message);
 export const error = (message) => addLogEntry(LOG_LEVELS.ERROR, message);
 export const sent = (message) => addLogEntry(LOG_LEVELS.SENT, message);
 export const received = (message) => addLogEntry(LOG_LEVELS.RECEIVED, message);

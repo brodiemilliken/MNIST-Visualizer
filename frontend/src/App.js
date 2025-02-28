@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { connect, sendConfirmation, sendMessage } from './services/socketService';
+import { connect, sendConfirmation, sendMessage, handleConfirmation } from './services/socketService';
 import DebugConsole from './components/DebugConsole';
-import { info, debug, warn, error, sent, received } from './services/loggerService';
+import { info, debug, warning, error, sent, received } from './services/loggerService';
 import './styles/App.css';
 
 function App() {
@@ -24,7 +24,8 @@ function App() {
     });
 
     socket.on('received_message', (data) => {
-      debug(`Confirmation: ${(data.content)}`);
+      //debug(`Confirmation: ${(data.content)}`);
+      handleConfirmation(data);
     });
 
     return () => {

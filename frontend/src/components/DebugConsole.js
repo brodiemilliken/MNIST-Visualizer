@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { getLogEntries, subscribe, clearLogs } from '../services/loggerService';
 import '../styles/DebugConsole.css';
 
-const LOG_LEVELS = ['DEBUG', 'INFO', 'WARN', 'ERROR', 'SENT', 'RECEIVED'];
+const LOG_LEVELS = ['DEBUG', 'INFO', 'WARNING', 'ERROR', 'SENT', 'RECEIVED'];
 
 const DebugConsole = () => {
   const [isVisible, setIsVisible] = useState(false);
