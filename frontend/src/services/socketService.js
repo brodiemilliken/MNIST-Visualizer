@@ -35,8 +35,8 @@ export const sendConfirmation = (message) => {
     error('Socket not connected, cannot send message');
     return false;
   }
-  socket.emit('recieved_message', { type: 'text', content: message });
-  debug(`Confirmation sent: ${message}`);
+  socket.emit('recieved_message', message );
+  debug(`Confirmation sent: ${message.content}`);
   return true;
 };
 

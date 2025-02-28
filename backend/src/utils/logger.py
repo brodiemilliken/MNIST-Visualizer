@@ -42,11 +42,11 @@ class ConsoleLogger:
         source = f"{self.name}.{method}"
         add_log("ERROR", source, message)
     
-    def warning(self, message):
+    def warn(self, message):
         """Log warning level message with caller method"""
         method = self._get_caller_method()
         source = f"{self.name}.{method}"
-        add_log("WARNING", source, message)
+        add_log("WARN", source, message)
     
     def sent(self, message):
         """Log sent message with caller method"""
@@ -65,6 +65,6 @@ _default_logger = get_logger("Backend")
 info = _default_logger.info
 debug = _default_logger.debug
 error = _default_logger.error
-warning = _default_logger.warning
+warn = _default_logger.warn
 sent = _default_logger.sent
 received = _default_logger.received

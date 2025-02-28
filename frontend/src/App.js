@@ -20,7 +20,7 @@ function App() {
 
     socket.on('message', (data) => {
       received(`Message from backend: ${data.content}`);
-      sendConfirmation(data.content); 
+      sendConfirmation(data); 
     });
 
     socket.on('received_message', (data) => {

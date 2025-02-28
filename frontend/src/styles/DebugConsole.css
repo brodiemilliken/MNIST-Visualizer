@@ -16,17 +16,19 @@
 }
 
 .debug-console {
-  width: 500px;
+  width: 640px;  /* Increased from 500px */
   max-width: 90vw;
-  height: 300px;
-  background: rgba(0, 0, 0, 0.85);
-  color: #ddd;
+  height: 400px;  /* Made it taller as well */
+  background: rgba(30, 30, 30, 0.95);  /* Closer to backend background */
+  color: #e0e0e0;
   border-radius: 4px;
-  margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
+  border: 1px solid #444;
 }
 
+/* Update the header styling to accommodate filters */
 .debug-console-header {
   padding: 8px;
   border-bottom: 1px solid #444;
@@ -38,6 +40,8 @@
 .debug-console-header h3 {
   margin: 0;
   font-size: 14px;
+  white-space: nowrap;
+  margin-right: 16px;
 }
 
 .debug-console-logs {
@@ -52,20 +56,21 @@
   font-size: 12px;
   line-height: 1.4;
   padding: 2px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: left;
+  border-bottom: 1px solid #333;
+  padding-bottom: 2px;
 }
 
 .log-timestamp {
   color: #888;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .log-level {
-  margin-right: 5px;
-  font-weight: bold;
-  padding: 1px 4px;
+  display: inline-block;
+  padding: 1px 5px;
+  margin: 0 5px;
   border-radius: 3px;
+  font-weight: bold;
 }
 
 /* Enhanced log level styling with new color scheme */
@@ -75,8 +80,8 @@
 }
 
 .log-level-info .log-level {
-  background-color: #0d3a58;
-  color: #5db1ff;
+  background-color: #351b50;
+  color: #c17aff;
 }
 
 .log-level-warn .log-level {
@@ -89,10 +94,9 @@
   color: #ff6b6b;
 }
 
-/* Add new log levels for SENT and RECEIVED */
 .log-level-sent .log-level {
-  background-color: #351b50;
-  color: #c17aff;
+  background-color: #0d3a58;
+  color: #5db1ff;
 }
 
 .log-level-received .log-level {
@@ -101,7 +105,7 @@
 }
 
 .log-message {
-  word-break: break-word;
+  word-break: break-all;
 }
 
 .no-logs {
@@ -109,3 +113,80 @@
   color: #777;
   margin-top: 20px;
 }
+
+/* Move filters into header and update styling */
+.debug-console-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  flex-grow: 1;
+  overflow-x: auto;
+  padding-right: 16px; /* Space before the Clear button */
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.filter-option input {
+  margin-right: 4px;
+}
+
+/* Style the filter text like log levels */
+.filter-label {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/* Apply the same color scheme as the log levels */
+.filter-label-debug {
+  background-color: #2d2d2d;
+  color: #b0b0b0;
+}
+
+.filter-label-info {
+  background-color: #351b50;
+  color: #c17aff;
+}
+
+.filter-label-warn {
+  background-color: #5c4116;
+  color: #ffbf49;
+}
+
+.filter-label-error {
+  background-color: #5a1818;
+  color: #ff6b6b;
+}
+
+.filter-label-sent {
+  background-color: #0d3a58;
+  color: #5db1ff;
+}
+
+.filter-label-received {
+  background-color: #164522;
+  color: #6bff8e;
+}
+
+.filter-badge {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.badge-debug { background-color: #b0b0b0; }
+.badge-info { background-color: #c17aff; }
+.badge-warn { background-color: #ffbf49; }
+.badge-error { background-color: #ff6b6b; }
+.badge-sent { background-color: #5db1ff; }
+.badge-received { background-color: #6bff8e; }

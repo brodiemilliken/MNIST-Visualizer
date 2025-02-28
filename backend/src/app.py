@@ -1,8 +1,7 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-from flask_socketio import SocketIO
-# Fix the import path
-from src.socket_handlers import register_socket_handlers
+# Updated import
+from src.socket_handlers import init_socketio, send_message
 from src.utils.logger import get_logger
 from src.debug_console import debug_bp
 import threading
@@ -24,18 +23,8 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 # Register blueprints
 app.register_blueprint(debug_bp)
 
-# Initialize SocketIO
-socketio = SocketIO(
-    app, 
-    cors_allowed_origins="*", 
-    async_mode='threading',
-    logger=False,  # Set to True only for troubleshooting
-    engineio_logger=False,
-    ping_timeout=60
-)
-
-# Register socket handlers
-register_socket_handlers(socketio)
+# Initialize SocketIO with the app (moved to socket_handlers)
+socketio = init_socketio(app)
 
 # Background thread management
 thread = None
@@ -50,8 +39,7 @@ def background_thread():
             time.sleep(5)
             count += 1
             message = {'type': 'text', 'content': f'Server update #{count}'}
-            sent(f"Sending background message: {message['content']}")
-            socketio.emit('message', message)
+            send_message('message', message)
         except Exception as e:
             error(f"Error in background thread: {e}")
 
