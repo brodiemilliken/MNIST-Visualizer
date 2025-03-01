@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Debug Console</title>
+    <style>
+        body {
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Redesigned header to include all buttons */
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 8px 15px;
+            background-color: #1a1a1a;
+            border-bottom: 1px solid #333;
+            gap: 12px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+        }
+
+        .header h1 {
+            font-size: 1.2em;
+            margin: 0;
+            color: #90caf9;
+            white-space: nowrap;
+        }
+
+        /* Style for all buttons in header */
+        .button-group {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        /* Push controls to the right with auto margin */
+        .controls {
+            margin-left: auto;
+            display: flex;
+            gap: 8px;
+        }
+
+        /* Universal button styling for consistency */
+        .filter-label, .action-button {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 11px;
+            min-width: 70px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.2s ease;
+            border: none;
+            font-family: monospace;
+        }
+
+        /* Filter button states */
+        .filter-active.filter-DEBUG {
+            background-color: #2d2d2d;
+            color: #b0b0b0;
+        }
+
+        .filter-active.filter-INFO {
+            background-color: #351b50;
+            color: #c17aff;
+        }
+
+        .filter-active.filter-WARNING {
+            background-color: #5c4116;
+            color: #ffbf49;
+        }
+
+        .filter-active.filter-ERROR {
+            background-color: #5a1818;
+            color: #ff6b6b;
+        }
+
+        .filter-active.filter-SENT {
+            background-color: #0d3a58;
+            color: #5db1ff;
+        }
+
+        .filter-active.filter-RECEIVED {
+            background-color: #164522;
+            color: #6bff8e;
+        }
+
+        /* Inactive filter styles */
+        .filter-inactive.filter-DEBUG {
+            background-color: #1a1a1a;
+            color: #777777;
+        }
+
+        .filter-inactive.filter-INFO {
+            background-color: #1e0f2d;
+            color: #8152b3;
+        }
+
+        .filter-inactive.filter-WARNING {
+            background-color: #362409;
+            color: #b38636;
+        }
+
+        .filter-inactive.filter-ERROR {
+            background-color: #3c0f0f;
+            color: #b34a4a;
+        }
+
+        .filter-inactive.filter-SENT {
+            background-color: #072030;
+            color: #4183b5;
+        }
+
+        .filter-inactive.filter-RECEIVED {
+            background-color: #0c2715;
+            color: #4aaf65;
+        }
+
+        .filter-inactive {
+            opacity: 0.75;
+        }
+
+        /* Action button styles matching filter buttons */
+        .action-button.refresh {
+            background-color: #0d3a58; /* Same as SENT */
+            color: #5db1ff;
+        }
+
+        .action-button.clear {
+            background-color: #5a1818; /* Same as ERROR */
+            color: #ff6b6b;
+        }
+
+        .action-button:hover {
+            opacity: 0.9;
+        }
+
+        /* Console container */
+        .console-container {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            overflow: hidden;
+        }
+
+        /* Logs area */
+        .logs {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 10px 0;
+        }
+
+        .log-entry {
+            padding: 4px 15px;
+            border-bottom: 1px solid #222;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .log-entry:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .timestamp {
+            color: #888;
+            margin-right: 10px;
+        }
+
+        .level {
+            display: inline-block;
+            padding: 1px 5px;
+            margin: 0 5px;
+            border-radius: 3px;
+            font-weight: bold;
+            min-width: 70px;
+            text-align: center;
+        }
+
+        .source {
+            color: #8c9eff;
+            margin-right: 10px;
+        }
+
+        .content {
+            word-break: break-all;
+        }
+
+        /* Color scheme for log levels */
+        .level-DEBUG {
+            background-color: #2d2d2d;
+            color: #b0b0b0;
+        }
+
+        .level-INFO {
+            background-color: #351b50;
+            color: #c17aff;
+        }
+
+        .level-WARNING {
+            background-color: #5c4116;
+            color: #ffbf49;
+        }
+
+        .level-ERROR {
+            background-color: #5a1818;
+            color: #ff6b6b;
+        }
+
+        .level-SENT {
+            background-color: #0d3a58;
+            color: #5db1ff;
+        }
+
+        .level-RECEIVED {
+            background-color: #164522;
+            color: #6bff8e;
+        }
+
+        .status-bar {
+            padding: 5px 15px;
+            background-color: #1a1a1a;
+            border-top: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: #888;
+        }
+
+        .no-logs {
+            padding: 20px;
+            text-align: center;
+            color: #777;
+            font-style: italic;
+        }
+
+        /* Animation for log entry appearance */
+        @keyframes fadeIn {
+            from { opacity: 0; background-color: rgba(255, 255, 255, 0.1); }
+            to { opacity: 1; background-color: transparent; }
+        }
+
+        .new-log {
+            animation: fadeIn 0.5s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Backend Debug Console</h1>
+        
+        <!-- Filter buttons directly in header -->
+        <div class="button-group">
+            <div class="filter-label filter-active filter-DEBUG" onclick="toggleFilter('DEBUG')">DEBUG</div>
+            <div class="filter-label filter-active filter-INFO" onclick="toggleFilter('INFO')">INFO</div>
+            <div class="filter-label filter-active filter-WARNING" onclick="toggleFilter('WARNING')">WARNING</div>
+            <div class="filter-label filter-active filter-ERROR" onclick="toggleFilter('ERROR')">ERROR</div>
+            <div class="filter-label filter-active filter-SENT" onclick="toggleFilter('SENT')">SENT</div>
+            <div class="filter-label filter-active filter-RECEIVED" onclick="toggleFilter('RECEIVED')">RECEIVED</div>
+        </div>
+        
+        <!-- Action buttons pushed to right -->
+        <div class="controls">
+            <button class="action-button refresh" onclick="fetchLogs()">REFRESH</button>
+            <button class="action-button clear" onclick="clearLogs()">CLEAR</button>
+        </div>
+    </div>
+    
+    <div class="console-container">
+        <div id="logs" class="logs"></div>
+    </div>
+    
+    <div class="status-bar">
+        <div id="log-count">Logs: 0</div>
+        <div id="last-updated">Last updated: Never</div>
+    </div>
+
+    <script>
+        // Keep JavaScript the same
+        let logs = [];
+        const activeFilters = new Set(['DEBUG', 'INFO', 'WARNING', 'ERROR', 'SENT', 'RECEIVED']);
+        
+        // Load saved filters from localStorage
+        function loadSavedFilters() {
+            try {
+                const savedFilters = localStorage.getItem('backendLogFilters');
+                if (savedFilters) {
+                    const parsedFilters = JSON.parse(savedFilters);
+                    activeFilters.clear();
+                    parsedFilters.forEach(filter => {
+                        activeFilters.add(filter);
+                    });
+                    updateFilterAppearance();
+                }
+            } catch (e) {
+                console.error('Error loading saved filters:', e);
+            }
+        }
+
+        // Save filters to localStorage
+        function saveFilters() {
+            localStorage.setItem('backendLogFilters', JSON.stringify([...activeFilters]));
+        }
+
+        // Toggle a filter
+        function toggleFilter(level) {
+            if (activeFilters.has(level)) {
+                activeFilters.delete(level);
+            } else {
+                activeFilters.add(level);
+            }
+            updateFilterAppearance();
+            saveFilters();
+            renderLogs();
+        }
+
+        // Update the appearance of all filter buttons
+        function updateFilterAppearance() {
+            document.querySelectorAll('.filter-label').forEach(filter => {
+                const level = filter.innerText;
+                if (activeFilters.has(level)) {
+                    filter.classList.add('filter-active');
+                    filter.classList.remove('filter-inactive');
+                } else {
+                    filter.classList.remove('filter-active');
+                    filter.classList.add('filter-inactive');
+                }
+            });
+        }
+
+        // Fetch logs from the server
+        function fetchLogs() {
+            fetch('/api/debug/logs')
+                .then(response => response.json())
+                .then(data => {
+                    logs = data;
+                    renderLogs();
+                    updateStatus();
+                })
+                .catch(error => {
+                    console.error('Error fetching logs:', error);
+                });
+        }
+
+        // Clear all logs
+        function clearLogs() {
+            fetch('/api/debug/clear', { method: 'POST' })
+                .then(() => fetchLogs())
+                .catch(error => {
+                    console.error('Error clearing logs:', error);
+                });
+        }
+
+        // Render logs based on active filters
+        function renderLogs() {
+            const logsContainer = document.getElementById('logs');
+            
+            // Filter logs based on active filters
+            const filteredLogs = logs.filter(log => activeFilters.has(log.level));
+            
+            // Clear current logs
+            logsContainer.innerHTML = '';
+            
+            if (filteredLogs.length === 0) {
+                logsContainer.innerHTML = '<div class="no-logs">No logs to display</div>';
+                return;
+            }
+            
+            // Append each log entry
+            filteredLogs.forEach(log => {
+                const logEntry = document.createElement('div');
+                logEntry.className = 'log-entry';
+                
+                const timestamp = document.createElement('span');
+                timestamp.className = 'timestamp';
+                timestamp.textContent = `[${new Date(log.unix_time * 1000).toLocaleTimeString()}]`;
+                
+                const level = document.createElement('span');
+                level.className = `level level-${log.level}`;
+                level.textContent = log.level;
+                
+                const source = document.createElement('span');
+                source.className = 'source';
+                source.textContent = `<${log.source}>`; // Added angle brackets here
+                
+                const content = document.createElement('span');
+                content.className = 'content';
+                content.textContent = log.content;
+                
+                // Order: timestamp, level, source, content
+                logEntry.appendChild(timestamp);
+                logEntry.appendChild(level);
+                logEntry.appendChild(source);  // Moved source before content
+                logEntry.appendChild(content);
+
+                logsContainer.appendChild(logEntry);
+            });
+            
+            // Scroll to bottom
+            logsContainer.scrollTop = logsContainer.scrollHeight;
+        }
+
+        // Update status bar information
+        function updateStatus() {
+            document.getElementById('log-count').textContent = `Logs: ${logs.length}`;
+            document.getElementById('last-updated').textContent = `Last updated: ${new Date().toLocaleTimeString()}`;
+        }
+
+        // Load saved filters and initial logs
+        loadSavedFilters();
+        fetchLogs();
+        
+        // Auto-refresh logs every 2 seconds
+        setInterval(fetchLogs, 2000);
+    </script>
+</body>
+</html>

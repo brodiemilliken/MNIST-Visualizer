@@ -1,5 +1,4 @@
 from flask import Blueprint, render_template, jsonify, request
-import threading
 import queue
 import json
 import datetime
@@ -17,7 +16,7 @@ def custom_log(level, message, *args, **kwargs):
 werkzeug_logger.log = custom_log
 
 # Create blueprint for debug console
-debug_bp = Blueprint('debug_console', __name__, template_folder='templates')
+debug_bp = Blueprint('debug_console', __name__)
 
 # Message queue for debug logs
 message_queue = queue.Queue(maxsize=1000)

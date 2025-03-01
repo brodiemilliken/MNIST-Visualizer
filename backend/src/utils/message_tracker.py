@@ -1,10 +1,9 @@
 import threading
 import time
-from src.utils.logger import get_logger, warning
+from src.utils.logger import get_logger
 
 logger = get_logger("message_tracker")
 debug = logger.debug
-info = logger.info
 warning = logger.warning
 error = logger.error
 
@@ -25,10 +24,8 @@ def track_message(message_data):
             'timestamp': time.time(),
             'data': message_data
         }
-    #debug(f"Tracking message {id}")
 
 def confirm_message(message_id):
-    #debug(f"Confirming message {message_id}")
     with message_lock:
         if message_id in pending_messages:
             message_data = pending_messages.pop(message_id)
@@ -44,7 +41,7 @@ def check_expired_messages():
     
     # Identify expired messages
     with message_lock:
-        for message_id, info in pending_messages.items():
+        for message_id, info in list(pending_messages.items()):
             elapsed = current_time - info['timestamp']
             if elapsed > CONFIRMATION_TIMEOUT:
                 expired_messages.append((message_id, info))
@@ -69,7 +66,7 @@ def start_tracker():
     thread = threading.Thread(target=tracker_thread)
     thread.daemon = True
     thread.start()
-    info("Message tracker thread started")
+    debug("Message tracker thread started")
     
 # Start the tracker thread when the module is imported
 start_tracker()

@@ -25,11 +25,20 @@ def init_socketio(app):
         ping_timeout=60
     )
     
-    register_handlers()
+    register_handlers(socketio)
     return socketio
 
-def register_handlers():
+def register_handlers(socketio):
     """Register all socket event handlers"""
+    
+    @socketio.on('connect')
+    def handle_connect():
+        debug("Client connected to WebSocket")
+    
+    @socketio.on('disconnect')
+    def handle_disconnect():
+        debug("Client disconnected from WebSocket")
+    
     @socketio.on('message')
     def handle_client_message(data):
         handle_message(data)
@@ -41,22 +50,20 @@ def register_handlers():
 def handle_message(data):
     received(f"Received: {data}")
     emit('received_message', data)
-    #debug(f"Sent confirmation: {data}")
 
 def handle_confirmation(data):
     """Process a confirmation from the client"""
     id = data.get('id', 'unknown')
     confirm_message(id)
-    #debug(f"Confirmation received: {data}")
 
 def send_message(event, data):
-    Append_ID(data)
-    sent(f"Sending {event} to client: {data['content']} (ID: {data['id']})")
-    track_message(data)
-    
-    # Use socketio.emit which works outside request context
+    """Send a message via SocketIO"""
+    from src.sockets.manager import socketio
     if socketio:
+        append_id(data)
+        track_message(data)
         socketio.emit(event, data)
+        sent(f"Sending {event} to client: {data['content']} (ID: {data['id']})")
     else:
         error("Socket.IO not initialized, cannot send message")
 
@@ -65,6 +72,6 @@ def get_id():
     ID += 1
     return ID
 
-def Append_ID(data):
+def append_id(data):
     data['id'] = get_id()
     return data
