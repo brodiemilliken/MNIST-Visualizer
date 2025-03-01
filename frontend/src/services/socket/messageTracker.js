@@ -1,4 +1,4 @@
-import { debug, warning } from './loggerService';
+import { debug, warning } from '../logger/loggerService';
 
 // Store for pending messages awaiting confirmation
 const pendingMessages = {};
@@ -80,6 +80,3 @@ const ensureCheckerRunning = () => {
     checkerInterval = setInterval(checkExpiredMessages, 100);
   }
 };
-
-// Export functions for testing
-export const __pendingMessages = pendingMessages;

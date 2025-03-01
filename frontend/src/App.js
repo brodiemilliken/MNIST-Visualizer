@@ -1,51 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import { connect, sendConfirmation, sendMessage, handleConfirmation } from './services/socketService';
-import DebugConsole from './components/DebugConsole';
-import { info, debug, warning, error, sent, received } from './services/loggerService';
+import React from 'react';
+import Home from './pages/Home';
+import useSocket from './hooks/useSocket';
 import './styles/App.css';
 
 function App() {
-  useEffect(() => {
-    debug('App initialized');
-    const socket = connect();
-    debug('Socket connection established');
-
-    socket.on('connect', () => {
-      debug('Socket connected successfully to backend');
-    });
-    
-    socket.on('connect_error', (err) => {
-      error(`Connection error: ${err.message}`);
-    });
-
-    socket.on('message', (data) => {
-      received(`Message from backend: ${data.content}`);
-      sendConfirmation(data); 
-    });
-
-    socket.on('received_message', (data) => {
-      //debug(`Confirmation: ${(data.content)}`);
-      handleConfirmation(data);
-    });
-
-    return () => {
-      debug('Disconnecting socket');
-      socket.disconnect();
-    };
-  }, []);
-
-  const handleSendMessage = () => {
-    const message = "Hello from the frontend!";
-    sendMessage(message);
-  };
-
+  // Initialize socket connection
+  useSocket();
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>MNIST-Visualizer</h1>
-        <button onClick={handleSendMessage}>Send Message to Backend</button>
-      </header>
-      <DebugConsole />
+      <Home />
     </div>
   );
 }

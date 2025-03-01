@@ -1,14 +1,12 @@
-from src.background_tasks import BackgroundTask
+# Fix import paths
+from src.test.background_tasks import BackgroundTask  # Changed from backend.src.test
 from src.utils.logger import get_logger
-from src.socket_handlers import send_message as socket_send_message
-from typing import Dict, Any
+from src.sockets.handlers import send_message as socket_send_message  # Changed from backend.src.sockets
 
 # Set up logger
 logger = get_logger("test_data")
 debug = logger.debug
 info = logger.info
-sent = logger.sent
-recieved = logger.received
 warning = logger.warning
 error = logger.error
 
@@ -32,19 +30,18 @@ def handle_connect():
     """Handle client connection - start multiple background tasks if needed"""
     debug("Client connected to WebSocket")
     
-    # Define our default tasks with different configurations
     tasks_to_create = [
         {
             'name': 'fast_updates',
-            'interval': 4  # Changed from 3 to 4
+            'interval': 4
         },
         {
             'name': 'medium_updates',
-            'interval': 7  # Changed from 5 to 7 (prime number)
+            'interval': 7
         },
         {
             'name': 'slow_updates',
-            'interval': 13  # Changed from 10 to 13 (prime number)
+            'interval': 13
         }
     ]
     

@@ -41,18 +41,18 @@ const addLogEntry = (level, message) => {
       consoleMethod = 'info';
       break;
     case LOG_LEVELS.WARNING:
-      consoleMethod = 'warn'; // This is wrong - should be 'warn'
+      consoleMethod = 'warn';
       break;
     case LOG_LEVELS.ERROR:
       consoleMethod = 'error';
       break;
     case LOG_LEVELS.SENT:
       consoleMethod = 'log';
-      style = 'color: #c17aff'; // Updated to match CSS
+      style = 'color: #c17aff';
       break;
     case LOG_LEVELS.RECEIVED:
       consoleMethod = 'log';
-      style = 'color: #6bff8e'; // Updated to match CSS
+      style = 'color: #6bff8e';
       break;
   }
   
@@ -75,8 +75,6 @@ const notifySubscribers = () => {
 export const clearLogs = () => {
   logs = [];
   info("Console logs cleared");
-  // We don't need to call notifySubscribers() here because
-  // the info() call above will trigger it
 };
 
 // Public logging functions

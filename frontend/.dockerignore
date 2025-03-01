@@ -1,14 +1,18 @@
+# Git
+.git
+.gitignore
+
 # Dependencies
-/node_modules
-/.pnp
+node_modules
+.pnp
 .pnp.js
 
 # Testing
-/coverage
-/test-reports
+coverage
+test-reports
 
 # Production
-/build
+build
 
 # Misc
 .DS_Store
@@ -31,6 +35,9 @@ yarn-error.log*
 *.swp
 *.swo
 
-# Optional npm cache & logs
-.npm
-.yarn-integrity
+# OS generated files
+Thumbs.db
+
+# Documentation
+*.md
+!README.md

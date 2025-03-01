@@ -1,5 +1,5 @@
 import inspect
-from src.debug_console import add_log
+from src.debug.console import add_log
 
 def get_logger(name=None):
     """

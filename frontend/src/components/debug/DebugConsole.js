@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { getLogEntries, subscribe, clearLogs } from '../services/loggerService';
-import '../styles/DebugConsole.css';
+import { getLogEntries, subscribe, clearLogs } from '../../services/logger/loggerService';
+import '../../styles/components/debug/DebugConsole.css';
 
 const LOG_LEVELS = ['DEBUG', 'INFO', 'WARNING', 'ERROR', 'SENT', 'RECEIVED'];
 
@@ -72,21 +72,17 @@ const DebugConsole = () => {
       {isVisible && (
         <div className="debug-console">
           <div className="debug-console-header">
-            <h3>Debug Console</h3>
+            {/* Header text removed */}
             
-            {/* Moved filters into the header */}
             <div className="debug-console-filters">
               {LOG_LEVELS.map(level => (
-                <label key={level} className="filter-option">
-                  <input
-                    type="checkbox"
-                    checked={activeFilters.has(level)}
-                    onChange={() => toggleFilter(level)}
-                  />
-                  <span className={`filter-label filter-label-${level.toLowerCase()}`}>
-                    {level}
-                  </span>
-                </label>
+                <div 
+                  key={level} 
+                  className={`filter-label ${activeFilters.has(level) ? 'filter-active' : 'filter-inactive'} filter-label-${level.toLowerCase()}`}
+                  onClick={() => toggleFilter(level)}
+                >
+                  {level}
+                </div>
               ))}
             </div>
             

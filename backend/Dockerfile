@@ -8,8 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Make sure port 5000 is exposed for both HTTP and WebSockets
+# Update this line to use the new entry point
 EXPOSE 5000
 
-# Change this line to run as a module instead of a script
-CMD ["python", "-m", "src.app"]
+# Use the new run.py entry point
+CMD ["python", "run.py"]
